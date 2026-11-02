@@ -1,0 +1,119 @@
+{
+  "id": "itr-basics",
+  "category": "Taxes & Financial Services",
+  "name": {
+    "en": "Income Tax Return Basics (ITR-1 Sahaj / Filing Guidance)",
+    "hi": "आयकर रिटर्न (आईटीआर-1 सहज / फाइलिंग मार्गदर्शन)",
+    "mr": "आयकर विवरणपत्र (ITR-1 सहज / कर भरणा माहिती)",
+    "ta": "வருமான வரி கணக்கு தாக்கல் (ITR-1 சஹஜ் வழிகாட்டி)",
+    "bn": "আয়কর রিটার্ন দাখিল (ITR-1 সহজ / ট্যাক্স নির্দেশিকা)"
+  },
+  "summary": {
+    "en": "Guide to filing annual income tax returns for resident individuals having total income up to ₹50 lakh from salary, one house property, and other sources (interest, etc.).",
+    "hi": "वेतन, एक गृह संपत्ति और अन्य स्रोतों (ब्याज आदि) से ₹50 लाख तक की कुल आय वाले निवासी व्यक्तियों के लिए वार्षिक आयकर रिटर्न दाखिल करने की मार्गदर्शिका।",
+    "mr": "पगार, एक घर आणि इतर स्रोतांतून (व्याज) ₹५० लाखांपर्यंत वार्षिक उत्पन्न असणाऱ्या व्यक्तींसाठी आयकर विवरणपत्र (ITR-1) भरण्याची मार्गदर्शक माहिती.",
+    "ta": "சம்பளம், ஒரு வீடு மற்றும் வட்டி வருமானம் மூலம் ₹50 லட்சம் வரை வருமானம் உள்ள தனிநபர்களுக்கான ITR-1 வழிகாட்டுதல்.",
+    "bn": "বেতন, একটি বাড়ি এবং অন্যান্য উৎস থেকে ₹৫০ লক্ষ টাকা পর্যন্ত আয়কারী ব্যক্তিদের জন্য বার্ষিক আয়কর রিটার্ন (ITR-1) জমা দেওয়ার নির্দেশিকা।"
+  },
+  "eligibility": {
+    "en": "Resident individual having total income up to ₹50 lakh from: Salary/Pension, One House Property, and Other Sources (Savings/FD Interest, Family Pension, Dividends). Under the New Tax Regime, total income up to ₹7.5 lakh (including standard deduction) is tax-free via Section 87A rebate.",
+    "hi": "वेतन/पेंशन, एक आवासीय संपत्ति, और अन्य स्रोतों (ब्याज/लाभांश) से ₹50 लाख तक की आय वाले निवासी व्यक्ति। नई कर व्यवस्था के तहत ₹7.5 लाख तक की कुल आय (मानक कटौती सहित) धारा 87A छूट के कारण कर-मुक्त है।",
+    "mr": "पगार/पेन्शन व इतर स्रोतांतून ₹५० लाखांपर्यंत उत्पन्न असणारे निवासी भारतीय. नवीन कर पद्धतीनुसार ₹७.५ लाखांपर्यंतच्या उत्पन्नावर कोणताही कर भरावा लागत नाही (कलम 87A रिबेटसह).",
+    "ta": "ஆண்டு வருமானம் ₹50 லட்சத்திற்கு உட்பட்ட சம்பளதாரர்கள். புதிய வரி முறையில் ₹7.5 லட்சம் வரை வருமான வரி விலக்கு பெறலாம்.",
+    "bn": "বেতন এবং অন্যান্য উৎস থেকে ₹৫০ লক্ষ টাকা পর্যন্ত বার্ষিক আয়কারী বাসিন্দা। নতুন কর ব্যবস্থায় ₹৭.৫ লক্ষ টাকা পর্যন্ত আয়ে কোনো কর দিতে হয় না।"
+  },
+  "benefits": {
+    "en": "Legal compliance, seamless processing of home/vehicle loans, visa processing for foreign travel, claiming tax refunds on TDS deducted, and carry forward of eligible losses.",
+    "hi": "कानूनी अनुपालन, होम/वाहन ऋण की आसान स्वीकृति, विदेश यात्रा के लिए वीजा, कटे हुए टीडीएस (TDS) का रिफंड पाना।",
+    "mr": "गृहकर्ज किंवा वाहन कर्जासाठी अधिकृत पुरावा, टीडीएस परतावा (TDS Refund) मिळवणे, आणि व्हिसा मंजुरीसाठी अनिवार्य कागदपत्र.",
+    "ta": "கடன் பெறுதல், விசா அனுமதி, மற்றும் பிடித்தம் செய்யப்பட்ட TDS வரியை திரும்பப் பெற உதவுகிறது.",
+    "bn": "ব্যাঙ্ক লোন অনুমোদন, বিদেশ ভ্রমণের ভিসা, এবং টিডিএস (TDS) রিফান্ড পাওয়ার ক্ষেত্রে অন্যতম প্রধান দলিল।"
+  },
+  "documentsRequired": [
+    {
+      "key": "pan_aadhaar",
+      "label": {
+        "en": "PAN Card and Aadhaar (must be linked)",
+        "hi": "पैन कार्ड और आधार कार्ड (आपस में लिंक होना अनिवार्य)",
+        "mr": "पॅन कार्ड आणि आधार कार्ड (लिंक असणे आवश्यक)",
+        "ta": "பான் அட்டை மற்றும் ஆதார் அட்டை (இணைக்கப்பட்டிருக்க வேண்டும்)",
+        "bn": "প্যান ও আধার কার্ড (যুক্ত থাকা বাধ্যতামূলক)"
+      },
+      "mandatory": true
+    },
+    {
+      "key": "form_16",
+      "label": {
+        "en": "Form 16 (Issued by Employer) / Salary Slips",
+        "hi": "फॉर्म 16 (नियोक्ता द्वारा जारी) / वेतन पर्चियां",
+        "mr": "फॉर्म १६ (कंपनीकडून मिळालेला) / पगार स्लिप",
+        "ta": "படிவம் 16 (Form 16) / சம்பள ரசீதுகள்",
+        "bn": "ফর্ম ১৬ (নিয়োগকারী প্রদত্ত) / স্যালারি স্লিপ"
+      },
+      "mandatory": true
+    },
+    {
+      "key": "ais_tis",
+      "label": {
+        "en": "Annual Information Statement (AIS) / Form 26AS from e-filing portal",
+        "hi": "वार्षिक सूचना विवरण (AIS) / फॉर्म 26AS",
+        "mr": "वार्षिक माहिती पत्रक (AIS) / फॉर्म 26AS",
+        "ta": "ஆண்டு தகவல் அறிக்கை (AIS) / படிவம் 26AS",
+        "bn": "বার্ষিক তথ্য বিবরণী (AIS) / ফর্ম 26AS"
+      },
+      "mandatory": true
+    },
+    {
+      "key": "bank_statements",
+      "label": {
+        "en": "Bank Statements & Interest Certificates (Savings & Fixed Deposits)",
+        "hi": "बैंक विवरण और ब्याज प्रमाण पत्र (बचत खाता और एफडी)",
+        "mr": "बँक खात्याचे विवरण व व्याजाचा दाखला",
+        "ta": "வங்கி அறிக்கை மற்றும் சேமிப்பு வட்டி விவரங்கள்",
+        "bn": "ব্যাঙ্ক স্টেটমেন্ট ও ফিক্সড ডিপোজিট সুদের বিবরণী"
+      },
+      "mandatory": true
+    }
+  ],
+  "steps": {
+    "en": [
+      "Log in to the Income Tax e-Filing portal (eportal.incometax.gov.in) with PAN.",
+      "Navigate to 'e-File' -> 'Income Tax Returns' -> 'File Income Tax Return'.",
+      "Select Assessment Year (e.g. AY 2026-27), choose 'Individual', and select 'ITR-1'.",
+      "Pre-filled data loads from AIS/Form 26AS; verify personal info, gross salary, and interest income.",
+      "Choose New vs Old Tax Regime, declare deductions if applicable, and calculate tax liability / refund.",
+      "Proceed to verification: e-Verify instantly using Aadhaar OTP (or net-banking/Demat).",
+      "Acknowledgment receipt (ITR-V) is generated immediately upon successful submission."
+    ],
+    "hi": [
+      "पैन के साथ आयकर ई-फाइलिंग पोर्टल (eportal.incometax.gov.in) पर लॉग इन करें।",
+      "'e-File' -> 'Income Tax Returns' -> 'File Income Tax Return' पर जाएं।",
+      "कर निर्धारण वर्ष चुनें, 'व्यक्तिगत' चुनें, और 'ITR-1' का चयन करें।",
+      "एआईएस और फॉर्म 26AS से पूर्व-भरी जानकारी की जांच करें।",
+      "कर व्यवस्था चुनें, कटौती घोषित करें और कर देयता/रिफंड की गणना करें।",
+      "आधार ओटीपी के माध्यम से तुरंत ई-सत्यापित (e-Verify) करें।",
+      "पावती रसीद (ITR-V) तुरंत डाउनलोड करें।"
+    ],
+    "mr": [
+      "eportal.incometax.gov.in वर पॅन आणि पासवर्डने लॉगिन करा.",
+      "'File Income Tax Return' वर जाऊन चालू कर निर्धारण वर्ष निवडा.",
+      "ITR-1 (सहज) निवडून आधीच भरलेली माहिती तपासा.",
+      "पगार, बँकेचे व्याज व कपातीची पडताळणी करा.",
+      "कर किंवा रिफंडची रक्कम तपासून पुढे जा.",
+      "आधार OTP द्वारे तात्काळ ई-व्हेरिफाय करा आणि ITR-V पावती डाउनलोड करा."
+    ],
+    "ta": [
+      "வருமான வரி போர்ட்டலில் பான் எண் மூலம் உள்நுழையவும்.",
+      "ITR-1 படிவத்தைத் தேர்ந்தெடுத்து தானாக பூர்த்தி செய்யப்பட்ட விவரங்களை சரிபார்க்கவும்.",
+      "ஆதார் OTP மூலம் உடனடி இ-சரிபார்ப்பு செய்து ரசீதைப் பதிவிறக்கவும்."
+    ],
+    "bn": [
+      "আয়কর ই-ফাইলিং পোর্টালে প্যান নম্বর দিয়ে লগইন করুন।",
+      "ITR-1 নির্বাচন করে বেতন এবং সুদের বিবরণ যাচাই করুন।",
+      "আধার ওটিপির মাধ্যমে ই-ভেরিফাই করুন এবং রসিদ সংগ্রহ করুন।"
+    ]
+  },
+  "officialPortalUrl": "https://www.incometax.gov.in",
+  "helpline": "1800-103-0025 / 1800-419-0025",
+  "lastUpdated": "2026-04-05"
+}

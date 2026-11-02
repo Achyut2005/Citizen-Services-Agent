@@ -1,0 +1,105 @@
+{
+  "id": "caste-certificate",
+  "category": "Certificates & Social Justice",
+  "name": {
+    "en": "Caste Certificate (Jati Praman Patra / SC/ST/OBC/SEBC Certificate)",
+    "hi": "जाति प्रमाण पत्र (एससी/एसटी/ओबीसी प्रमाण पत्र)",
+    "mr": "जात प्रमाणपत्र (जातीचा दाखला - SC/ST/VJNT/OBC)",
+    "ta": "சாதிச் சான்றிதழ் (SC/ST/OBC/BC சான்றிதழ்)",
+    "bn": "জাতিগত শংসাপত্র (এসসি/এসটি/ওবিসি সার্টিফিকেট)"
+  },
+  "summary": {
+    "en": "Statutory documentary proof of a citizen belonging to a specific Scheduled Caste (SC), Scheduled Tribe (ST), Other Backward Class (OBC), or designated community under constitutional orders.",
+    "hi": "संवैधानिक आदेशों के तहत किसी विशिष्ट अनुसूचित जाति (SC), अनुसूचित जनजाति (ST), अन्य पिछड़ा वर्ग (OBC), या समुदाय से संबंधित होने का वैधानिक दस्तावेजी प्रमाण।",
+    "mr": "घटनात्मक तरतुदींनुसार अनुसूचित जाती (SC), अनुसूचित जमाती (ST), किंवा इतर मागासवर्गीय (OBC) समुदायाशी संबंधित असण्याचा कायदेशीर दाखला.",
+    "ta": "அரசியலமைப்பு விதிகளின்படி குறிப்பிட்ட SC/ST/OBC/BC சமூகத்தைச் சேர்ந்தவர் என்பதை உறுதிப்படுத்தும் அரசு ஆவணம்.",
+    "bn": "তফসিলি জাতি (SC), তফসিলি উপজাতি (ST), বা অন্যান্য অনগ্রসর শ্রেণি (OBC) ভুক্তির সরকারি আইনি সংশাপত্র।"
+  },
+  "eligibility": {
+    "en": "Citizen belonging to a notified community listed in President/Governor's orders for that state, having parental proof of domicile and lineage. (For OBC Non-Creamy Layer, annual parental income must be within government prescribed limits, currently ₹8 Lakh per annum).",
+    "hi": "उस राज्य के लिए अधिसूचित समुदाय से संबंधित नागरिक, जिसके पास माता-पिता के अधिवास और वंश का प्रमाण हो। (ओबीसी नॉन-क्रीमी लेयर के लिए माता-पिता की वार्षिक आय निर्धारित सीमा, वर्तमान में ₹8 लाख के भीतर होनी चाहिए)।",
+    "mr": "संबंधित राज्यातील अधिसूचित प्रवर्गातील नागरिक. अर्जदाराकडे पूर्वजांच्या जातीची जुनी नोंद आवश्यक (उदा. १९५०/१९६१/१९६७ च्या आधीची). ओबीसी नॉन-क्रीमी लेयरसाठी वार्षिक उत्पन्न मर्यादेत असावे.",
+    "ta": "அரசு அறிவித்துள்ள சமூகப் பட்டியலில் உள்ள வகுப்பைச் சேர்ந்த குடிமக்கள் தகுதியுடையவர்கள். பெற்றோர் சாதிச் சான்று அவசியம்.",
+    "bn": "বিজ্ঞাপিত অনগ্রসর শ্রেণিভুক্ত নাগরিক। পিতা/রক্তের সম্পর্কের আত্মীয়ের জাতিগত শংসাপত্র থাকা আবশ্যিক।"
+  },
+  "benefits": {
+    "en": "Affirmative action reservations in central/state educational institutions, government recruitments, fee remissions, pre- and post-matric fellowships, and targeted economic development loans.",
+    "hi": "शैक्षणिक संस्थानों, सरकारी नौकरियों में आरक्षण, परीक्षा शुल्क में छूट, छात्रवृत्ति और रियायती ऋण योजनाओं का लाभ।",
+    "mr": "शासकीय नोकऱ्या, शाळा-महाविद्यालय प्रवेशात आरक्षण, परीक्षा फी सवलत, शिष्यवृत्ती आणि शासकीय योजनांचा लाभ.",
+    "ta": "கல்வி இடஒதுக்கீடு, அரசு வேலைவாய்ப்பு சலுகைகள், மற்றும் கல்வி உதவித்தொகை பெற பயன்படுகிறது.",
+    "bn": "সরকারি চাকরি ও উচ্চশিক্ষায় সংরক্ষণ, স্কলারশিপ ও সরকারি সহায়তা পাওয়ার আইনি অধিকার প্রদান করে।"
+  },
+  "documentsRequired": [
+    {
+      "key": "aadhaar",
+      "label": {
+        "en": "Aadhaar Card of Applicant & Father",
+        "hi": "आवेदक और पिता का आधार कार्ड",
+        "mr": "अर्जदार व वडिलांचे आधार कार्ड",
+        "ta": "விண்ணப்பதாரர் மற்றும் தந்தையின் ஆதார்",
+        "bn": "আবেদনকারী ও পিতার আধার কার্ড"
+      },
+      "mandatory": true
+    },
+    {
+      "key": "lineage_proof",
+      "label": {
+        "en": "Father / Grandfather / Blood Relative's School Leaving Certificate or Caste Certificate with caste entry",
+        "hi": "पिता/दादा का स्कूल छोड़ने का प्रमाण पत्र या जाति प्रमाण पत्र (जाति उल्लेख सहित)",
+        "mr": "वडील किंवा आजोबांचा शाळा सोडल्याचा दाखला (जात नमूद असलेला) किंवा नातेवाईकांचे जात वैधता प्रमाणपत्र",
+        "ta": "தந்தை அல்லது குடும்பத்தினரின் சாதிச் சான்று",
+        "bn": "পিতা বা রক্তসম্পর্কের আত্মীয়ের কাজ সার্টিফিকেটের কপি"
+      },
+      "mandatory": true
+    },
+    {
+      "key": "residence_proof",
+      "label": {
+        "en": "Domicile / Permanent Residence Certificate / 1950-1967 residence proof",
+        "hi": "निवास प्रमाण पत्र / ऐतिहासिक अधिवास साक्ष्य",
+        "mr": "अधिवास दाखला / जुना वास्तव्याचा पुरावा",
+        "ta": "இருப்பிடச் சான்றிதழ்",
+        "bn": "স্থায়ী বাসিন্দার প্রমাণপত্র"
+      },
+      "mandatory": true
+    }
+  ],
+  "steps": {
+    "en": [
+      "Open State Revenue / e-District portal or visit Sub-Divisional Magistrate (SDM) / Tehsildar office.",
+      "Submit application for Scheduled Caste / Scheduled Tribe / Backward Class Certificate.",
+      "Fill applicant details, father/ancestor name, sub-caste, and cut-off year proofs.",
+      "Upload identity proof, lineage documents, and genealogical tree affidavit.",
+      "Field enquiry executed by Circle Officer / Revenue Inspector.",
+      "Upon SDM/Tahsildar approval, caste certificate is digitally issued."
+    ],
+    "hi": [
+      "राज्य ई-डिस्ट्रिक्ट पोर्टल खोलें या एसडीएम/तहसीलदार कार्यालय जाएं।",
+      "जाति प्रमाण पत्र के लिए ऑनलाइन आवेदन पत्र भरें।",
+      "आवेदक का नाम, पिता का नाम, उप-जाति और पैतृक अभिलेख भरें।",
+      "पहचान प्रमाण, वंशावली दस्तावेज और हलफनामा अपलोड करें।",
+      "राजस्व निरीक्षक द्वारा क्षेत्र सत्यापन और अभिलेख जांच की जाती है।",
+      "एसडीएम की मंजूरी पर डिजिटल जाति प्रमाण पत्र जारी होता है।"
+    ],
+    "mr": [
+      "आपले सरकार पोर्टलवर 'जात प्रमाणपत्र' अर्ज निवडा.",
+      "स्वतःचे नाव, धर्म, जात आणि उपजात अचूक भरा.",
+      "वडिलांचा जुना शाळा सोडल्याचा दाखला आणि वंशावळ शपथपत्र अपलोड करा.",
+      "सक्षम प्राधिकारी (उपविभागीय अधिकारी/प्रांत) यांच्याकडून अर्जाची छाननी होते.",
+      "मंजुरीनंतर बारकोडयुक्त डिजिटल जात प्रमाणपत्र प्राप्त होते."
+    ],
+    "ta": [
+      "இ-சேவை மையத்தில் விண்ணப்பித்து தேவையான ஆவணங்களை சமர்ப்பிக்கவும்.",
+      "வருவாய்த் துறை ஆய்வாளர் மூலம் சாதி உறுதிப்படுத்தப்படும்.",
+      "வட்டாட்சியரின் ஒப்புதலுக்குப் பின் சான்றிதழ் வழங்கப்படும்."
+    ],
+    "bn": [
+      "backwardclasses.wb.gov.in বা জাতীয় পোর্টালে অনলাইন ফর্ম পূরণ করুন।",
+      "পারিবারিক বংশতালিকা ও পূর্বপুরুষদের জাতি সনদের কপি আপলোড করুন।",
+      "বিডিও বা মহকুমা শাসক (SDO) দ্বারা যাচাই ও অনুমোদন করা হয়।"
+    ]
+  },
+  "officialPortalUrl": "https://services.india.gov.in",
+  "helpline": "1800-11-2001",
+  "lastUpdated": "2026-03-20"
+}

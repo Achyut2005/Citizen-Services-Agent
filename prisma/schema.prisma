@@ -1,0 +1,77 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id            String         @id @default(cuid())
+  name          String
+  phone         String
+  email         String?
+  locale        String         @default("en")
+  createdAt     DateTime       @default(now())
+  applications  Application[]
+  notifications Notification[]
+}
+
+model Application {
+  id           String        @id // Format: APP-YYYY-XXXXXX
+  schemeId     String
+  userId       String
+  user         User          @relation(fields: [userId], references: [id])
+  status       String        @default("SUBMITTED") // SUBMITTED, UNDER_REVIEW, VERIFIED, APPROVED, REJECTED
+  formData     String        // JSON string
+  documents    Document[]
+  statusEvents StatusEvent[]
+  createdAt    DateTime      @default(now())
+  updatedAt    DateTime      @updatedAt
+}
+
+model Document {
+  id            String      @id @default(cuid())
+  applicationId String
+  application   Application @relation(fields: [applicationId], references: [id], onDelete: Cascade)
+  slotName      String      // e.g. aadhaar, income_proof, land_record
+  fileName      String
+  fileType      String
+  fileSize      Int
+  verifyStatus  String      @default("PASS") // PASS, FAIL
+  verifyReason  String
+  uploadedAt    DateTime    @default(now())
+}
+
+model StatusEvent {
+  id            String      @id @default(cuid())
+  applicationId String
+  application   Application @relation(fields: [applicationId], references: [id], onDelete: Cascade)
+  fromStatus    String
+  toStatus      String
+  note          String
+  createdAt     DateTime    @default(now())
+}
+
+model Notification {
+  id            String   @id @default(cuid())
+  userId        String
+  user          User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  applicationId String?
+  message       String
+  channel       String   @default("web") // web, whatsapp
+  read          Boolean  @default(false)
+  createdAt     DateTime @default(now())
+}
+
+model AgentLog {
+  id          String   @id @default(cuid())
+  sessionId   String
+  channel     String   @default("web") // web, whatsapp, call
+  userMessage String
+  agentReply  String
+  kbEntryIds  String   // comma-separated scheme IDs
+  locale      String   @default("en")
+  createdAt   DateTime @default(now())
+}

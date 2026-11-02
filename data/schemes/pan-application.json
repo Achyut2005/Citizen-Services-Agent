@@ -1,0 +1,90 @@
+{
+  "id": "pan-application",
+  "category": "Identity & Financial Services",
+  "name": {
+    "en": "PAN Card Application (Form 49A / Instant e-PAN)",
+    "hi": "पैन कार्ड आवेदन (फॉर्म 49A / तत्काल ई-पैन)",
+    "mr": "पॅन कार्ड अर्ज (फॉर्म ४९ए / इन्स्टंट ई-पॅन)",
+    "ta": "பான் கார்டு விண்ணப்பம் (படிவம் 49A / உடனடி இ-பான்)",
+    "bn": "প্যান কার্ডের আবেদন (ফর্ম ৪৯এ / তাত্ক্ষণিক ই-প্যান)"
+  },
+  "summary": {
+    "en": "Application for Permanent Account Number (PAN), a 10-digit alphanumeric identifier issued by the Income Tax Department, mandatory for banking, financial transactions, and filing tax returns.",
+    "hi": "स्थायी खाता संख्या (पैन) के लिए आवेदन, आयकर विभाग द्वारा जारी 10 अंकों का अल्फ़ान्यूमेरिक पहचान पत्र, जो बैंकिंग, वित्तीय लेनदेन और आयकर रिटर्न दाखिल करने के लिए अनिवार्य है।",
+    "mr": "आयकर विभागाने जारी केलेला १०-अंकी ओळख क्रमांक, जो बँक खाते उघडणे, आर्थिक व्यवहार आणि कर भरण्यासाठी कायदेशीररीत्या अनिवार्य आहे.",
+    "ta": "வருமான வரித் துறையால் வழங்கப்படும் 10 இலக்க பான் அட்டை விண்ணப்பம். வங்கி கணக்கு மற்றும் நிதி பரிவர்த்தனைகளுக்கு கட்டாயமானது.",
+    "bn": "আয়কর দপ্তর প্রদত্ত ১০ সংখ্যার আলফানিউমেরিক প্যান কার্ডের আবেদন, যা ব্যাঙ্কিং এবং আর্থিক লেনদেনের ক্ষেত্রে অপরিহার্য।"
+  },
+  "eligibility": {
+    "en": "Any individual resident or non-resident, minor, or corporate entity. For Instant e-PAN, applicant must hold a valid Aadhaar linked with an active mobile number and must have never been allotted a PAN.",
+    "hi": "कोई भी भारतीय नागरिक, अनिवासी, या नाबालिग। तत्काल ई-पैन के लिए, आवेदक के पास एक वैध आधार होना चाहिए जो सक्रिय मोबाइल नंबर से लिंक हो और उसे पहले कभी पैन आवंटित न हुआ हो।",
+    "mr": "कोणताही भारतीय नागरिक किंवा संस्था. मोफत आणि तात्काळ ई-पॅनसाठी आधार कार्ड मोबाईल क्रमांकाशी जोडलेले असणे आवश्यक.",
+    "ta": "அனைத்து இந்திய குடிமக்களும் விண்ணப்பிக்கலாம். உடனடி இ-பான் பெற மொபைல் இணைக்கப்பட்ட ஆதார் கட்டாயம்.",
+    "bn": "যেকোনো ভারতীয় নাগরিক। বিনামূল্যে তাৎক্ষণিক ই-প্যানের জন্য সক্রিয় মোবাইল নম্বর যুক্ত আধার কার্ড থাকা আবশ্যক।"
+  },
+  "benefits": {
+    "en": "Serves as universal proof of identity across India; mandatory for opening bank accounts, buying or selling motor vehicles, high-value investments, filing ITR, and prevents TDS deduction at maximum rate.",
+    "hi": "पूरे भारत में पहचान का सार्वभौमिक प्रमाण; बैंक खाता खोलने, वाहन खरीदने, निवेश करने, आईटीआर दाखिल करने और उच्च टीडीएस कटौती से बचने के लिए आवश्यक।",
+    "mr": "देशभरात ओळखीचा अधिकृत पुरावा; बँक खाते उघडणे, गाडी खरेदी, मालमत्ता व्यवहार आणि आयकर परताव्यासाठी आवश्यक.",
+    "ta": "நாடு முழுவதும் அதிகாரப்பூர்வ அடையாள அட்டை; வங்கி கணக்கு தொடங்கவும் பணப் பரிவர்த்தனைகளுக்கும் அவசியம்.",
+    "bn": "সারা দেশে সর্বজনীন পরিচয়পত্র; ব্যাঙ্ক অ্যাকাউন্ট খোলা, সম্পত্তি ক্রয় এবং কর সংক্রান্ত সমস্ত কাজের জন্য বাধ্যতামূলক।"
+  },
+  "documentsRequired": [
+    {
+      "key": "aadhaar",
+      "label": {
+        "en": "Aadhaar Card (serves as Proof of Identity, Address & Date of Birth)",
+        "hi": "आधार कार्ड (पहचान, पता और जन्मतिथि के प्रमाण के रूप में)",
+        "mr": "आधार कार्ड (ओळख, पत्ता आणि जन्म तारखेचा पुरावा)",
+        "ta": "ஆதார் அட்டை (அடையாளம் மற்றும் முகவரி சான்று)",
+        "bn": "আধার কার্ড (পরিচয় ও ঠিকানার একমাত্র বৈধ প্রমাণপত্র)"
+      },
+      "mandatory": true
+    },
+    {
+      "key": "photograph",
+      "label": {
+        "en": "Passport Size Photograph (for physical card via NSDL/Protean or UTIITSL)",
+        "hi": "पासपोर्ट साइज फोटो (भौतिक कार्ड के लिए)",
+        "mr": "पासपोर्ट साईज फोटो",
+        "ta": "பாஸ்போர்ட் அளவு புகைப்படம்",
+        "bn": "পাসপোর্ট মাপের রঙিন ছবি"
+      },
+      "mandatory": false
+    }
+  ],
+  "steps": {
+    "en": [
+      "Method 1 (Instant Free e-PAN): Visit incometax.gov.in -> 'Instant e-PAN' -> Enter Aadhaar -> Validate via OTP -> Download e-PAN PDF within 10 minutes.",
+      "Method 2 (Physical Card via Protean / UTIITSL): Visit onlineservices.nsdl.com -> Form 49A.",
+      "Select 'Individual', fill applicant details matching Aadhaar strictly.",
+      "Choose e-KYC paperless mode using Aadhaar authentication.",
+      "Pay nominal card printing and postage fee (₹107 for Indian address).",
+      "Physical PVC laminated card is delivered to postal address within 7-10 working days."
+    ],
+    "hi": [
+      "तरीका 1 (तत्काल मुफ्त ई-पैन): incometax.gov.in पर जाएं -> 'Instant e-PAN' -> आधार नंबर दर्ज करें -> ओटीपी सत्यापित करें -> 10 मिनट में ई-पैन डाउनलोड करें।",
+      "तरीका 2 (भौतिक कार्ड): Protean (NSDL) या UTIITSL पोर्टल पर जाएं -> फॉर्म 49A भरें।",
+      "आधार के अनुसार व्यक्तिगत जानकारी दर्ज करें और आधार ई-केवाईसी चुनें।",
+      "कार्ड प्रिंटिंग और डाक शुल्क (₹107) का ऑनलाइन भुगतान करें।",
+      "भौतिक कार्ड 7-10 कार्य दिवसों में डाक से पते पर पहुंच जाएगा।"
+    ],
+    "mr": [
+      "पर्याय १ (तात्काळ मोफत ई-पॅन): incometax.gov.in वर 'Instant e-PAN' निवडा -> आधार नंबर टाका -> OTP पडताळा -> १० मिनिटांत ई-पॅन डाउनलोड करा.",
+      "पर्याय २ (प्लास्टिक कार्ड): Protean (NSDL) पोर्टलवर फॉर्म ४९ए भरा.",
+      "आधारनुसार माहिती भरून ऑनलाइन ₹१०७ शुल्क भरा.",
+      "७ ते १० दिवसांत प्रत्यक्ष कार्ड पोस्टाने घरी पोहोचेल."
+    ],
+    "ta": [
+      "முறை 1 (உடனடி இலவச இ-பான்): incometax.gov.in தளத்தில் Instant e-PAN தேர்வு செய்து 10 நிமிடங்களில் பதிவிறக்கவும்.",
+      "முறை 2 (அஞ்சல் அட்டை): NSDL போர்ட்டலில் படிவம் 49A பூர்த்தி செய்து ₹107 செலுத்தவும். அட்டை அஞ்சலில் வரும்."
+    ],
+    "bn": [
+      "পদ্ধতি ১ (তাত্ক্ষণিক ই-প্যান): incometax.gov.in পোর্টালে যান -> 'Instant e-PAN' এ ক্লিক করে আধার ওটিপি দিয়ে ১০ মিনিটে ডাউনলোড করুন।",
+      "পদ্ধতি ২ (প্লাস্টিক কার্ড): NSDL পোর্টালে Form 49A পূরণ করুন এবং ১০৭ টাকা ফি দিয়ে ডাকযোগে কার্ড পান।"
+    ]
+  },
+  "officialPortalUrl": "https://www.protean-tinpan.com",
+  "helpline": "020-27218080",
+  "lastUpdated": "2026-04-12"
+}
